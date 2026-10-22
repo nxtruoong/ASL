@@ -312,6 +312,43 @@ input:focus-visible {
     600 10px Manrope,
     sans-serif;
 }
+.auth-button {
+  min-height: 32px;
+  padding: 0 13px;
+  border: 1px solid #d9d7cb;
+  border-radius: 999px;
+  background: #e8e4d7;
+  color: #33454a;
+  font:
+    600 10px Manrope,
+    sans-serif;
+  cursor: pointer;
+}
+.auth-button:hover {
+  border-color: #9aa8a1;
+}
+.auth-button:focus-visible {
+  outline: 2px solid #47756e;
+  outline-offset: 2px;
+}
+.auth-state {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 14px;
+  padding: 24px;
+  text-align: center;
+  background: #f1eee4;
+  color: #243a3e;
+}
+.auth-state h1,
+.auth-state p {
+  margin: 0;
+}
+.auth-state button {
+  justify-self: center;
+  padding: 10px 18px;
+}
 .content-wrap {
   max-width: 1330px;
   margin: auto;

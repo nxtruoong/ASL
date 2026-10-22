@@ -1,247 +1,247 @@
-// Introductory Vietnamese explanations, aligned with the supplied curriculum.
+// Introductory English explanations aligned with the supplied curriculum.
 export const lessonContent = {
   1: {
     reading: [
-      "Từ việc ghi lại các mùa và hướng sao để định vị, con người dần xây dựng những mô hình có thể kiểm tra bằng quan sát. Kính thiên văn mở rộng tầm nhìn; ngày nay, các đài quan sát còn thu ánh sáng ngoài vùng mắt người nhìn thấy.",
-      "Thiên văn học kết nối vật lý, toán học và công nghệ để giải thích các thiên thể. Đo ánh sáng từ một ngôi sao giúp ta suy ra những đặc điểm của nó mà không cần đến tận nơi.",
-      "Trái Đất thuộc Hệ Mặt Trời. Hệ Mặt Trời nằm trong thiên hà Ngân Hà; Ngân Hà lại là một trong rất nhiều thiên hà. Một năm ánh sáng đo khoảng cách ánh sáng đi trong một năm, không phải thời gian.",
-    ],
-    question: "Năm ánh sáng là đơn vị đo gì?",
-    options: ["Thời gian", "Khoảng cách", "Độ sáng"],
+    "From recording seasons and star directions for navigation, humans gradually built models that could be tested by observation. Telescopes expand visibility; Today, observatories also collect light beyond what the human eye can see.",
+    "Astronomy connects physics, mathematics, and technology to explain celestial bodies. Measuring light from a star helps us deduce its characteristics without having to go there.",
+    "Earth belongs to the Solar System. The Solar System is located in the Milky Way galaxy; The Milky Way is one of many galaxies. A light year measures the distance light travels in one year, not time."],
+
+    question: "What unit of measurement is a light year?",
+    options: ["Time", "Distance", "Brightness"],
     correct: 1,
     explanation:
-      "Tên gọi có chữ “năm”, nhưng đây là khoảng cách ánh sáng đi được trong một năm.",
-    source: ["NASA · Vũ trụ", "https://science.nasa.gov/universe/overview/"],
+    "The name has the word \u201Cyear\u201D, but this is the distance light travels in one year.",
+    source: ["NASA \xB7 Space", "https://science.nasa.gov/universe/overview/"]
   },
   2: {
     reading: [
-      "Trái Đất tự quay quanh trục và chuyển động quanh Mặt Trời. Sự tự quay tạo ra nhịp ngày đêm và chuyển động biểu kiến của phần lớn thiên thể từ đông sang tây.",
-      "Vị trí Trái Đất trên quỹ đạo làm phần bầu trời nhìn thấy vào ban đêm thay đổi theo năm. Trục quay nghiêng khiến góc chiếu sáng và độ dài ban ngày thay đổi, tạo nên các mùa.",
-      "Nhật thực xảy ra khi Mặt Trăng che Mặt Trời theo góc nhìn từ Trái Đất; nguyệt thực xảy ra khi Mặt Trăng đi qua bóng Trái Đất. Mây và khí quyển cũng tạo các hiện tượng quang học như quầng sáng. Chỉ quan sát Mặt Trời với thiết bị bảo vệ phù hợp.",
-    ],
-    question: "Vì sao các ngôi sao dường như di chuyển trong một đêm?",
+    "The Earth rotates on its axis and moves around the Sun. Rotation produces diurnal rhythms and the apparent motion of most celestial bodies from east to west.",
+    "Earth's position in orbit causes the part of the sky visible at night to change over the year. The tilted axis causes the angle of light and length of daylight to change, creating the seasons.",
+    "A solar eclipse occurs when the Moon covers the Sun from the perspective of Earth; A lunar eclipse occurs when the Moon passes through the Earth's shadow. Clouds and the atmosphere also create optical phenomena such as halos. Observe the Sun only with appropriate protective equipment."],
+
+    question: "Why do stars seem to move overnight?",
     options: [
-      "Trái Đất tự quay",
-      "Mặt Trời quay quanh Trái Đất",
-      "Các sao chuyển động cùng tốc độ",
-    ],
+    "The Earth rotates on its own",
+    "The Sun revolves around the Earth",
+    "Stars move at the same speed"],
+
     correct: 0,
     explanation:
-      "Sự tự quay của Trái Đất làm hướng nhìn của người quan sát thay đổi liên tục.",
+    "The Earth's rotation causes the observer's viewing direction to change continuously.",
     source: [
-      "NASA · Hệ Mặt Trời – Trái Đất – Mặt Trăng",
-      "https://science.nasa.gov/learn/heat/big-ideas/big-idea-1-1/",
-    ],
+    "NASA \xB7 Solar System \u2013 Earth \u2013 Moon",
+    "https://science.nasa.gov/learn/heat/big-ideas/big-idea-1-1/"]
+
   },
   3: {
     reading: [
-      "Một chòm sao hiện đại là một vùng được xác định trên thiên cầu. Những ngôi sao tạo hình quen thuộc trong vùng ấy có thể ở những khoảng cách rất khác nhau và không nhất thiết gần nhau trong không gian.",
-      "Hiệp hội Thiên văn Quốc tế công nhận 88 chòm sao phủ toàn bộ bầu trời. Một hình sao quen thuộc chưa chắc là một chòm sao độc lập: Bắc Đẩu là một hình sao thuộc chòm Đại Hùng.",
-      "Bắt đầu bằng một hình dễ nhận biết, xác định phương hướng, rồi đối chiếu bản đồ sao theo vị trí và thời gian quan sát. Hạ độ sáng màn hình để mắt thích nghi với bóng tối.",
-    ],
-    question: "Các sao trong cùng một chòm sao có nhất thiết ở gần nhau?",
+    "A modern constellation is a defined region on the celestial sphere. Stars that form familiar shapes in that region can be at very different distances and are not necessarily close together in space.",
+    "The International Astronomical Union recognizes 88 constellations that cover the entire sky. A familiar star formation is not necessarily an independent constellation: Big Dipper is a star formation in the Ursa Major constellation.",
+    "Start with a recognizable shape, determine direction, then compare the star map by location and time of observation. Lower the screen brightness to let your eyes adjust to the dark."],
+
+    question: "Do stars in the same constellation have to be close to each other?",
     options: [
-      "Có, chúng luôn thuộc cùng cụm sao",
-      "Không, chúng có thể ở rất xa nhau",
-      "Chỉ có 12 chòm sao",
-    ],
+    "Yes, they always belong to the same star cluster",
+    "No, they can be very far apart",
+    "There are only 12 constellations"],
+
     correct: 1,
     explanation:
-      "Chòm sao là cách chia bầu trời theo góc nhìn từ Trái Đất, không phải một nhóm sao chắc chắn gần nhau.",
+    "A constellation is a way of dividing the sky from the perspective of Earth, not a certain group of stars close together.",
     source: [
-      "NASA · Các chòm sao",
-      "https://science.nasa.gov/skywatching/faq/",
-    ],
+    "NASA \xB7 Constellations",
+    "https://science.nasa.gov/skywatching/faq/"]
+
   },
   4: {
     reading: [
-      "Dương lịch theo chu kỳ năm gắn với các mùa. Năm theo mùa dài khoảng 365,2422 ngày, nên lịch phải có quy tắc hiệu chỉnh để các tháng không dần lệch khỏi mùa.",
-      "Tháng âm lịch theo chu kỳ pha Mặt Trăng, khoảng 29,53 ngày. Lịch Việt Nam là âm dương lịch: vừa theo tháng trăng, vừa hiệu chỉnh để phù hợp với năm theo mùa.",
-      "Trong lịch Gregory, năm chia hết cho 4 thường là năm nhuận; năm tròn thế kỷ chỉ nhuận khi chia hết cho 400. Âm dương lịch có thể thêm tháng nhuận theo quy tắc riêng, không phải cứ ba năm thêm một tháng.",
-      "24 tiết khí chia chu kỳ năm theo vị trí biểu kiến của Mặt Trời trên hoàng đạo. Chúng giúp gắn lịch với sự thay đổi theo mùa.",
-    ],
-    question: "Vì sao âm dương lịch cần tháng nhuận?",
+    "The solar calendar follows a yearly cycle associated with the seasons. The seasonal year is about 365.2422 days long, so the calendar must have an adjustment rule so that the months do not gradually deviate from the season.",
+    "The lunar month follows the lunar phase cycle, about 29.53 days. The Vietnamese calendar is a lunisolar calendar: it both follows the moon and is adjusted to fit the year according to the seasons.",
+    "In the Gregorian calendar, years divisible by 4 are usually leap years; A full century year is only a leap when divisible by 400. The lunar calendar can add a leap month according to its own rules, not every three years adding a month.",
+    "The 24 solar terms divide the yearly cycle according to the apparent position of the Sun on the ecliptic. They help tie the calendar to seasonal changes."],
+
+    question: "Why does the lunisolar calendar need leap months?",
     options: [
-      "Để tháng nào cũng có 30 ngày",
-      "Để giữ tháng trăng phù hợp với năm theo mùa",
-      "Vì Trái Đất ngừng quay",
-    ],
+    "Let every month have 30 days",
+    "To keep lunar months aligned with the seasonal year",
+    "Because the Earth stopped spinning"],
+
     correct: 1,
     explanation:
-      "12 tháng trăng ngắn hơn một năm theo mùa. Tháng nhuận giúp hiệu chỉnh độ lệch tích lũy.",
+    "Twelve lunar months are shorter than a seasonal year. Leap months correct the accumulated drift.",
     source: [
-      "US Naval Observatory · Cơ sở thiên văn của lịch",
-      "https://aa.usno.navy.mil/faq/calendars",
-    ],
+    "US Naval Observatory \xB7 Astronomical basis of the calendar",
+    "https://aa.usno.navy.mil/faq/calendars"]
+
   },
   5: {
     reading: [
-      "Sóng vô tuyến, vi ba, hồng ngoại, ánh sáng nhìn thấy, tử ngoại, tia X và tia gamma đều là bức xạ điện từ. Chúng khác nhau về bước sóng và tần số; mắt người chỉ nhìn thấy một phần nhỏ của phổ.",
-      "Tách ánh sáng thành quang phổ giống như mở một thông điệp thành nhiều dòng. Các vạch phổ giúp nhận biết nguyên tố; hình dạng phổ và sự dịch chuyển của các vạch cung cấp thông tin về nhiệt độ và chuyển động.",
-      "Trong chân không, ánh sáng truyền với vận tốc 299.792.458 mét mỗi giây. Vì ánh sáng cần thời gian để đến ta, nhìn thiên thể xa cũng là nhìn vào quá khứ của nó.",
-    ],
-    question: "Kính hồng ngoại thấy gì ngoài khả năng của mắt người?",
+    "Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays and gamma rays are all electromagnetic radiation. They differ in wavelength and frequency; The human eye only sees a small part of the spectrum.",
+    "Separating light into spectrum is like opening a message into multiple lines. Spectral lines help identify elements; The spectral shape and displacement of the lines provide information about temperature and motion.",
+    "In a vacuum, light travels at a speed of 299,792,458 meters per second. Because light takes time to reach us, looking at a distant celestial body is also looking into its past."],
+
+    question: "What can infrared telescopes detect beyond the capabilities of the human eye?",
     options: [
-      "Bức xạ có bước sóng dài hơn ánh sáng nhìn thấy",
-      "Âm thanh của các sao",
-      "Chỉ ánh sáng màu đỏ",
-    ],
+    "Radiation has a longer wavelength than visible light",
+    "The sound of the stars",
+    "Only red light"],
+
     correct: 0,
     explanation:
-      "Hồng ngoại nằm ngoài vùng nhìn thấy, về phía bước sóng dài hơn ánh sáng đỏ.",
-    source: ["NASA · Phổ điện từ", "https://science.nasa.gov/ems/"],
+    "Infrared is outside the visible range, toward longer wavelengths than red light.",
+    source: ["NASA \xB7 Electromagnetic spectrum", "https://science.nasa.gov/ems/"]
   },
   6: {
     reading: [
-      "Trong mô hình Newton, hai khối lượng hút nhau với lực F = Gm₁m₂/r². Tăng khoảng cách gấp đôi làm lực hấp dẫn còn một phần tư, nếu giữ nguyên hai khối lượng.",
-      "Thuyết tương đối rộng mô tả hấp dẫn bằng độ cong của không thời gian do vật chất và năng lượng tạo ra. Ánh sáng cũng chịu ảnh hưởng, tạo nên hiện tượng thấu kính hấp dẫn.",
-      "Hấp dẫn góp phần gom khí thành sao, giữ các hành tinh trên quỹ đạo và liên kết vật chất trong các thiên hà. Nó là một cơ chế cốt lõi trong việc hình thành cấu trúc vũ trụ.",
-    ],
+    "In the Newtonian model, two masses attract each other with a force F = Gm\u2081m\u2082/r\xB2. Doubling the distance reduces the gravitational force to one-fourth, if the two masses are kept the same.",
+    "General relativity describes gravity in terms of the curvature of spacetime created by matter and energy. Light is also affected, creating the phenomenon of gravitational lensing.",
+    "Gravity helps gather gas into stars, keep planets in orbit, and bind matter in galaxies. It is a core mechanism in forming the structure of the universe."],
+
     question:
-      "Giữ nguyên hai khối lượng, tăng khoảng cách gấp đôi thì lực hấp dẫn Newton thế nào?",
-    options: ["Tăng gấp đôi", "Giảm còn một nửa", "Giảm còn một phần tư"],
+    "Keeping the two masses the same and doubling the distance, what happens to Newtonian gravity?",
+    options: ["Double", "Reduced by half", "Reduced to a quarter"],
     correct: 2,
-    explanation: "Lực tỉ lệ nghịch với bình phương khoảng cách: 1/2² = 1/4.",
+    explanation: "Force is inversely proportional to the square of distance: 1/2\xB2 = 1/4.",
     source: [
-      "NASA · Hấp dẫn và cơ học",
-      "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-1/",
-    ],
+    "NASA \xB7 Fascinating and mechanical",
+    "https://science.nasa.gov/learn/basics-of-space-flight/chapter3-1/"]
+
   },
   7: {
     reading: [
-      "Mặt Trời nằm ở trung tâm hấp dẫn của Hệ Mặt Trời và chứa phần lớn khối lượng của hệ. Bên ngoài là các hành tinh, hành tinh lùn và rất nhiều thiên thể nhỏ.",
-      "Tám hành tinh, từ trong ra ngoài, là Thủy tinh, Kim tinh, Trái Đất, Hỏa tinh, Mộc tinh, Thổ tinh, Thiên Vương tinh và Hải Vương tinh. Các vệ tinh tự nhiên quay quanh hành tinh; số lượng được biết tiếp tục thay đổi khi có phát hiện mới.",
-      "Tiểu hành tinh thường giàu đá hoặc kim loại; sao chổi chứa nhiều băng và bụi. Sao Diêm Vương được xếp là hành tinh lùn. Những hình ghép hành tinh thường không thể hiện đúng khoảng cách thực tế.",
-    ],
-    question: "Hành tinh nào nằm ngay sau Trái Đất theo thứ tự từ Mặt Trời?",
-    options: ["Kim tinh", "Hỏa tinh", "Mộc tinh"],
+    "The Sun lies at the center of gravity of the Solar System and contains most of the system's mass. Outside are planets, dwarf planets and many small celestial bodies.",
+    "The eight planets, from inside to outside, are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune. Natural satellites orbit the planet; The number known continues to change as new discoveries are made.",
+    "Asteroids are often rich in rocks or metals; Comet contains a lot of ice and dust. Pluto is classified as a dwarf planet. Planetary mosaics often do not accurately represent actual distances."],
+
+    question: "Which planet is directly behind Earth in order from the Sun?",
+    options: ["Kim tinh", "Mars", "Jupiter"],
     correct: 1,
     explanation:
-      "Thứ tự bốn hành tinh gần Mặt Trời là Thủy tinh, Kim tinh, Trái Đất và Hỏa tinh.",
-    source: ["NASA · Hệ Mặt Trời", "https://science.nasa.gov/solar-system/"],
+    "The order of the four planets closest to the Sun is Mercury, Venus, Earth and Mars.",
+    source: ["NASA \xB7 Solar System", "https://science.nasa.gov/solar-system/"]
   },
   8: {
     reading: [
-      "Mặt Trời là một ngôi sao. Trong lõi, phản ứng tổng hợp hạt nhân biến hydro thành heli và giải phóng năng lượng. Ánh sáng chúng ta nhận được là một phần của dòng năng lượng ấy.",
-      "Năng lượng Mặt Trời duy trì phần lớn các chuỗi thức ăn và thúc đẩy khí hậu trên Trái Đất. Khí quyển, từ trường và điều kiện bề mặt cùng góp phần tạo môi trường sống của hành tinh.",
-      "Nước lỏng là một dấu hiệu quan trọng khi tìm nơi có thể ở được. Tuy nhiên, có điều kiện phù hợp không đồng nghĩa đã tìm thấy sự sống; cần bằng chứng trực tiếp và kiểm chứng độc lập.",
-    ],
-    question: "Nguồn năng lượng chính của Mặt Trời là gì?",
+    "The Sun is a star. In the core, nuclear fusion turns hydrogen into helium and releases energy. The light we receive is part of that energy flow.",
+    "Solar energy sustains much of the food chain and drives climate on Earth. Atmosphere, magnetic field and surface conditions together contribute to the habitability of the planet.",
+    "Liquid water is an important indicator when looking for a habitable place. However, having suitable conditions does not mean finding life; Need direct evidence and independent verification."],
+
+    question: "What is the main source of energy of the Sun?",
     options: [
-      "Đốt than",
-      "Phản ứng tổng hợp hạt nhân",
-      "Phản chiếu ánh sáng từ các sao khác",
-    ],
+    "Burn coal",
+    "Nuclear fusion",
+    "Reflects light from other stars"],
+
     correct: 1,
     explanation:
-      "Trong lõi Mặt Trời, hydro hợp thành heli, giải phóng năng lượng.",
-    source: ["NASA · Mặt Trời", "https://science.nasa.gov/sun/"],
+    "In the Sun's core, hydrogen fuses into helium, releasing energy.",
+    source: ["NASA \xB7 Sun", "https://science.nasa.gov/sun/"]
   },
   9: {
     reading: [
-      "Quỹ đạo liên kết của một vật thể quanh Mặt Trời có thể gần đúng bằng elip. Độ lệch tâm e đo mức kéo dài: e = 0 là đường tròn; e lớn hơn tạo quỹ đạo dài hơn. Quỹ đạo thực còn chịu nhiễu từ các thiên thể khác.",
-      "Ba định luật Kepler cho biết: quỹ đạo hành tinh là elip với Mặt Trời ở một tiêu điểm; bán kính nối hành tinh với Mặt Trời quét diện tích bằng nhau trong thời gian bằng nhau; bình phương chu kỳ tỉ lệ với lập phương bán trục lớn. Hành tinh vì thế chạy nhanh hơn khi gần Mặt Trời.",
-    ],
-    question: "Một hành tinh trên quỹ đạo elip chuyển động nhanh nhất khi nào?",
+    "The associated orbit of an object around the Sun can be approximated by an ellipse. Eccentricity e measures the degree of elongation: e = 0 is a circle; Larger e creates longer orbits. The real orbit is also subject to interference from other celestial bodies.",
+    "Kepler's three laws state: planetary orbits are elliptical with the Sun at one focus; The radius connecting the planet to the Sun sweeps out equal areas in equal times; The square of the period is proportional to the cube of the semi-major axis. The planet therefore runs faster when it is closer to the Sun."],
+
+    question: "When does a planet in an elliptical orbit move fastest?",
     options: [
-      "Ở gần Mặt Trời nhất",
-      "Ở xa Mặt Trời nhất",
-      "Tốc độ luôn như nhau",
-    ],
+    "Closest to the Sun",
+    "Farthest from the Sun",
+    "The speed is always the same"],
+
     correct: 0,
     explanation:
-      "Theo định luật II Kepler, hành tinh chạy nhanh hơn ở phần quỹ đạo gần Mặt Trời.",
+    "According to Kepler's second law, planets run faster in orbits closer to the Sun.",
     source: [
-      "NASA · Quỹ đạo và định luật Kepler",
-      "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/",
-    ],
+    "NASA \xB7 Orbits and Kepler's laws",
+    "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/"]
+
   },
   10: {
     reading: [
-      "Tự nhiên có bốn tương tác cơ bản: hấp dẫn, điện từ, tương tác mạnh và tương tác yếu. Chúng chi phối những quá trình từ liên kết hạt nhân đến chuyển động thiên thể.",
-      "Mô hình Chuẩn mô tả các hạt cơ bản và ba tương tác ngoài hấp dẫn. Electron thuộc nhóm lepton; proton và neutron được cấu tạo từ quark. Vì thế, không phải mọi hạt trong một nguyên tử đều là hạt cơ bản.",
-      "Vật chất tối được suy ra qua tác động hấp dẫn, như chuyển động của thiên hà và thấu kính hấp dẫn. Bản chất hạt của nó chưa được xác định; không nên xem nó là một chất đã tìm thấy trực tiếp trong phòng thí nghiệm.",
-    ],
-    question: "Tương tác nào chưa được Mô hình Chuẩn mô tả đầy đủ?",
-    options: ["Điện từ", "Tương tác mạnh", "Hấp dẫn"],
+    "Nature has four basic interactions: gravitation, electromagnetism, strong interaction and weak interaction. They govern processes ranging from nuclear binding to celestial motion.",
+    "The Standard Model describes elementary particles and three interactions beyond gravity. Electrons belong to the lepton group; Protons and neutrons are made of quarks. Therefore, not all particles in an atom are elementary particles.",
+    "Dark matter is inferred through gravitational effects, such as galaxy motion and gravitational lensing. Its particle nature has not been determined; It should not be considered a substance found directly in the laboratory."],
+
+    question: "Which interaction is not fully described by the Standard Model?",
+    options: ["Electromagnetic", "Strong interaction", "Gravity"],
     correct: 2,
     explanation:
-      "Mô hình Chuẩn mô tả tương tác mạnh, yếu và điện từ; hấp dẫn cần một khuôn khổ rộng hơn.",
+    "The Standard Model describes strong, weak, and electromagnetic interactions; gravity requires a broader framework.",
     source: [
-      "CERN · Mô hình Chuẩn",
-      "https://home.cern/science/physics/standard-model/",
-    ],
+    "CERN \xB7 Standard Model",
+    "https://home.cern/science/physics/standard-model/"]
+
   },
   11: {
     reading: [
-      "Sao khác nhau về khối lượng, nhiệt độ, độ sáng và giai đoạn tiến hóa. Màu xanh thường gắn với bề mặt nóng hơn màu đỏ. Khối lượng ban đầu ảnh hưởng rất lớn đến đường đời của sao.",
-      "Một ngôi sao hình thành khi vùng khí và bụi co lại do hấp dẫn. Khi lõi đủ nóng và đặc, phản ứng tổng hợp hydro có thể duy trì, đánh dấu giai đoạn sao dãy chính.",
-      "Sao giống Mặt Trời cuối cùng để lại sao lùn trắng. Một số sao có khối lượng lớn để lại sao neutron hoặc lỗ đen. Không phải mọi ngôi sao đều phát nổ thành supernova.",
-      "Supernova là vụ nổ sao cực sáng. Một cơ chế là lõi của sao nặng sụp đổ; cơ chế khác liên quan đến sao lùn trắng trong hệ sao đôi. Vụ nổ phát tán vật chất vào môi trường liên sao.",
-    ],
-    question: "Mặt Trời có được dự đoán sẽ trở thành một lỗ đen?",
+    "Stars vary in mass, temperature, luminosity and evolutionary stage. Blue is usually associated with hotter surfaces than red. The initial mass greatly affects the life path of a star.",
+    "A star forms when a region of gas and dust collapses due to gravity. When the core is hot and dense enough, hydrogen fusion can be sustained, marking the main sequence star stage.",
+    "Sun-like stars eventually leave behind white dwarfs. Some massive stars leave behind neutron stars or black holes. Not every star explodes into a supernova.",
+    "Supernova is an extremely bright star explosion. One mechanism is that the core of a massive star collapses; Another mechanism involves white dwarfs in binary systems. The explosion scattered material into the interstellar medium."],
+
+    question: "Is the Sun predicted to become a black hole?",
     options: [
-      "Có, mọi sao đều thành lỗ đen",
-      "Không, nó sẽ để lại sao lùn trắng",
-      "Nó sẽ thành một hành tinh",
-    ],
+    "Yes, all stars become black holes",
+    "No, it would leave behind a white dwarf",
+    "It will become a planet"],
+
     correct: 1,
     explanation:
-      "Mặt Trời không đủ khối lượng để kết thúc bằng một lỗ đen; tàn dư dự kiến là sao lùn trắng.",
-    source: ["NASA · Các ngôi sao", "https://science.nasa.gov/universe/stars/"],
+    "The Sun does not have enough mass to end up as a black hole; The remnant is expected to be a white dwarf.",
+    source: ["NASA \xB7 Stars", "https://science.nasa.gov/universe/stars/"]
   },
   12: {
     reading: [
-      "Lỗ đen khối lượng sao có thể hình thành khi lõi một ngôi sao đủ nặng sụp đổ. Các lỗ đen cũng có thể hợp nhất. Nguồn gốc và quá trình lớn lên của lỗ đen siêu nặng vẫn là chủ đề nghiên cứu.",
-      "Chân trời sự kiện là ranh giới mà tín hiệu ánh sáng từ phía trong không thể đi ra ngoài. Vật chất nóng bên ngoài có thể phát sáng mạnh; lỗ đen không tự hút mọi thứ xung quanh như một máy hút bụi.",
-      "Lỗ trắng và lỗ sâu xuất hiện trong các thảo luận lý thuyết về không thời gian. Chưa có bằng chứng quan sát xác nhận sự tồn tại của chúng; cần phân biệt chúng với các lỗ đen đã có bằng chứng quan sát.",
-    ],
-    question: "Điều gì đã có bằng chứng quan sát?",
+    "Stellar-mass black holes can form when the core of a sufficiently massive star collapses. Black holes can also merge. The origin and growth process of supermassive black holes are still research topics.",
+    "The event horizon is the boundary where light signals from inside cannot go out. Hot outside matter can glow strongly; Black holes do not suck up everything around them like a vacuum cleaner.",
+    "White holes and worm holes appear in theoretical discussions of spacetime. There is no observational evidence confirming their existence; It is necessary to distinguish them from black holes for which observational evidence exists."],
+
+    question: "What was there observational evidence for?",
     options: [
-      "Lỗ sâu dùng để du hành",
-      "Lỗ trắng phun ra vật chất",
-      "Lỗ đen ảnh hưởng đến chuyển động của sao",
-    ],
+    "Wormholes are used for travel",
+    "The white hole spews out matter",
+    "Black holes affect stellar motion"],
+
     correct: 2,
     explanation:
-      "Các nhà thiên văn quan sát tác động của lỗ đen qua chuyển động sao, khí nóng và nhiều tín hiệu khác.",
-    source: ["NASA · Lỗ đen", "https://science.nasa.gov/universe/black-holes/"],
+    "Astronomers observe the impact of black holes through stellar movements, hot gas and many other signals.",
+    source: ["NASA \xB7 Black hole", "https://science.nasa.gov/universe/black-holes/"]
   },
   13: {
     reading: [
-      "Ngân Hà là thiên hà xoắn ốc có thanh chứa Hệ Mặt Trời. Vì ở bên trong đĩa thiên hà, chúng ta nhìn nhiều sao tập trung thành dải Ngân Hà trên trời tối.",
-      "Andromeda là thiên hà lớn lân cận. Chuyển động tương lai của Nhóm Địa phương phụ thuộc nhiều thiên hà; khả năng và thời điểm Ngân Hà hợp nhất với Andromeda vẫn được cập nhật theo dữ liệu, không phải một lịch hẹn chắc chắn.",
-      "Các thiên hà có thể tạo thành nhóm và cụm, kết nối trong mạng lưới vũ trụ. Thấu kính hấp dẫn giúp nghiên cứu khối lượng, kể cả thành phần không phát sáng.",
-      "Đa vũ trụ là một nhóm ý tưởng lý thuyết, chưa phải kết luận quan sát đã xác nhận. Các mô hình khoa học phải được phân biệt theo loại bằng chứng và khả năng kiểm tra.",
-    ],
-    question: "Ngân Hà thuộc loại cấu trúc nào?",
-    options: ["Một ngôi sao", "Một thiên hà", "Một hệ hành tinh"],
+    "The Milky Way is a barred spiral galaxy containing the Solar System. Because inside the galactic disk, we see many stars concentrated into the Milky Way in the dark sky.",
+    "Andromeda is a large neighboring galaxy. The future movements of the Local Group depend on many galaxies; The possibility and timing of the Milky Way merging with Andromeda is still updated according to data, not a certain date.",
+    "Galaxies can form groups and clusters, connected in the cosmic web. Gravitational lenses help study masses, including non-luminous components.",
+    "The multiverse is a set of theoretical ideas, not a confirmed observational conclusion. Scientific models must be differentiated according to type of evidence and testability."],
+
+    question: "What type of structure is the Milky Way?",
+    options: ["One star", "A galaxy", "A planetary system"],
     correct: 1,
     explanation:
-      "Ngân Hà chứa rất nhiều sao cùng khí, bụi và vật chất tối; Hệ Mặt Trời chỉ là một phần nhỏ.",
+    "The Milky Way contains many stars, gas, dust and dark matter; The Solar System is only a small part.",
     source: [
-      "NASA · Các thiên hà",
-      "https://science.nasa.gov/universe/galaxies/",
-    ],
+    "NASA \xB7 Galaxies",
+    "https://science.nasa.gov/universe/galaxies/"]
+
   },
   14: {
     reading: [
-      "Trên quy mô lớn, không gian đang giãn nở. Ánh sáng từ nhiều thiên hà xa bị kéo dài bước sóng, tạo ra dịch chuyển đỏ vũ trụ học. Những hệ liên kết chặt như Hệ Mặt Trời không giãn nở theo cùng cách.",
-      "Mô hình Big Bang mô tả vũ trụ từng nóng hơn, đặc hơn rồi giãn nở và nguội đi. Bức xạ nền vi sóng cùng tỉ lệ các nguyên tố nhẹ là những bằng chứng quan trọng. Big Bang không phải vụ nổ từ một điểm vào khoảng không có sẵn.",
-      "Sự tiến hóa dài hạn phụ thuộc thành phần vật chất, năng lượng và tính chất của năng lượng tối. Các kịch bản tương lai cần được phân biệt với điều đã đo được; vẫn còn nhiều câu hỏi chưa giải đáp.",
-    ],
-    question: "Phát biểu nào phù hợp với mô hình Big Bang?",
+    "On a large scale, space is expanding. Light from many distant galaxies has its wavelength stretched, creating a cosmological redshift. Tightly bound systems like the Solar System do not expand in the same way.",
+    "The Big Bang model describes the universe as once hotter, denser, then expanding and cooling. Microwave background radiation and the ratio of light elements are important evidence. The Big Bang was not an explosion from a point into pre-existing space.",
+    "Long-term evolution depends on the composition of matter, energy and properties of dark energy. Future scenarios need to be distinguished from what has been measured; There are still many unanswered questions."],
+
+    question: "Which statement is consistent with the Big Bang model?",
     options: [
-      "Không gian có thể giãn nở từ trạng thái nóng, đặc hơn",
-      "Vũ trụ nổ từ Trái Đất",
-      "Mọi thiên hà đều ở cùng tuổi",
-    ],
+    "Space can expand from a hotter, denser state",
+    "The universe exploded from Earth",
+    "All galaxies are the same age"],
+
     correct: 0,
     explanation:
-      "Big Bang mô tả lịch sử giãn nở và nguội đi của vũ trụ, không đặt Trái Đất ở tâm một vụ nổ.",
+    "The Big Bang describes the expansion and cooling history of the universe, without placing the Earth at the center of an explosion.",
     source: [
-      "NASA · Vũ trụ sơ khai",
-      "https://science.nasa.gov/mission/webb/early-universe/",
-    ],
-  },
+    "NASA \xB7 Early Universe",
+    "https://science.nasa.gov/mission/webb/early-universe/"]
+
+  }
 };

@@ -1,6 +1,8 @@
 node_modules/
 dist/
 public/tidecloak.json
+.env.local
 .impeccable/review/
 .impeccable/*.cjs
 .impeccable/prepare-fonts.mjs
+.tide-pack/

@@ -28,7 +28,7 @@ Learners browse on web and mobile, choose a topic, and resume their own sequence
 
 ## Capabilities and Constraints
 
-The current prototype includes accent-insensitive lesson search, topic filters, introductory lesson readings, quick quizzes, a Kepler orbit simulation, and local progress tracking. TideCloak authentication is a future integration and is not active in this prototype. Content beyond the supplied topic outline is introductory material with further-reading links to NASA, CERN, and the US Naval Observatory. It is a starter course, not a complete textbook.
+The current prototype includes accent-insensitive lesson search, topic filters, introductory lesson readings, quick quizzes, a Kepler orbit simulation, local progress tracking, and optional TideCloak authentication. Content beyond the supplied topic outline is introductory material with further-reading links to NASA, CERN, and the US Naval Observatory. It is a starter course, not a complete textbook.
 
 ## Evidence on Hand
 
@@ -40,4 +40,4 @@ The supplied screenshot contains 14 lesson titles and topic lists. NASA imagery 
 - Keep the Vietnamese curriculum recognizable and complete.
 - Let learners move at their own pace.
 - Keep progress clear and easy to change.
-- Treat authentication as a future integration boundary.
+- Keep TideCloak configuration out of source control and scope local progress by the authenticated subject.

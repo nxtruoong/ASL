@@ -38,11 +38,13 @@ Images and fonts are local assets. Scientific image credits and original source 
 
 Product intent is recorded in [PRODUCT.md](PRODUCT.md), and the surface brief is in [ASTRONOMY-BRIEF.md](ASTRONOMY-BRIEF.md).
 
-## Future TideCloak integration
+## TideCloak
 
-Authentication is deliberately dormant. The original app's active TideCloak provider and SDK dependency have been removed so this prototype works independently.
+The app currently runs with `VITE_TIDECLOAK_MODE=mock` because the local realm has not finished Tide key provisioning. The sign-in screen supports local registration and login plus learner/instructor demo identities. Registered accounts are learners; passwords are salted and hashed before browser storage. This mode does not mint a JWT and is not a production security boundary.
 
-When adding TideCloak, introduce the identity provider at `src/main.jsx`. Keep identity and authorization outside the visual components, and replace the current anonymous browser progress with account-scoped persistence. Existing local progress is not an authorization boundary and is not shared across devices. The retained `public/silent-check-sso.html` is an unused scaffold asset from the original repository.
+To switch back after provisioning succeeds, set `VITE_TIDECLOAK_MODE=live`, register `http://localhost:5137/*` as a redirect URI and `http://localhost:5137` as a web origin, then export the adapter to `public/tidecloak.json`. `AuthRoot` reads the OIDC `sub` and realm roles; progress is scoped by `sub`, `learner` may update progress, and `instructor` may read the instructor area.
+
+The adapter file is intentionally ignored by Git. The role checks in this Vite-only prototype are UI simulation: a production API must verify the Tide JWT, DPoP proof and required role server-side before reading or changing protected data. Browser progress remains local; cross-device synchronization needs that protected backend.
 
 ## Verification
 

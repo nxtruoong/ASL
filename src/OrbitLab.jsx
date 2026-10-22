@@ -22,16 +22,16 @@ export default function OrbitLab({ compact = false, onOpen }) {
     observer.observe(canvas);
     const draw = (time) => {
       if (playing && visible && previous)
-        phaseRef.current =
-          (phaseRef.current + Math.min(time - previous, 50) / 4200) %
-          (Math.PI * 2);
+      phaseRef.current =
+      (phaseRef.current + Math.min(time - previous, 50) / 4200) % (
+      Math.PI * 2);
       previous = time;
       const { width, height } = canvas.getBoundingClientRect();
       const ratio = Math.min(window.devicePixelRatio || 1, 2);
       if (
-        canvas.width !== Math.round(width * ratio) ||
-        canvas.height !== Math.round(height * ratio)
-      ) {
+      canvas.width !== Math.round(width * ratio) ||
+      canvas.height !== Math.round(height * ratio))
+      {
         canvas.width = Math.round(width * ratio);
         canvas.height = Math.round(height * ratio);
       }
@@ -52,9 +52,9 @@ export default function OrbitLab({ compact = false, onOpen }) {
       context.setLineDash([]);
       let anomaly = phaseRef.current;
       for (let i = 0; i < 10; i++)
-        anomaly -=
-          (anomaly - e * Math.sin(anomaly) - phaseRef.current) /
-          (1 - e * Math.cos(anomaly));
+      anomaly -=
+      (anomaly - e * Math.sin(anomaly) - phaseRef.current) / (
+      1 - e * Math.cos(anomaly));
       const x = cx + a * Math.cos(anomaly);
       const y = cy + b * Math.sin(anomaly);
       context.fillStyle = "#d5b57b";
@@ -79,8 +79,8 @@ export default function OrbitLab({ compact = false, onOpen }) {
       context.fillStyle = "#c1d2c9";
       context.font = '11px "DM Sans", sans-serif';
       context.textAlign = "center";
-      context.fillText("Mặt Trời", sunX, cy + 31);
-      context.fillText("Hành tinh", x, y - 16);
+      context.fillText("Sun", sunX, cy + 31);
+      context.fillText("Planet", x, y - 16);
       if (playing && visible) frame = requestAnimationFrame(draw);
     };
     const resizeObserver = new ResizeObserver(() => {
@@ -99,78 +99,78 @@ export default function OrbitLab({ compact = false, onOpen }) {
   return (
     <section
       className={`orbit-lab ${compact ? "orbit-lab-compact" : ""}`}
-      aria-label="Mô phỏng quỹ đạo Kepler"
-    >
+      aria-label="Kepler orbit simulation">
+
       <div className="lab-copy">
-        <h3>{compact ? "Vũ trụ không đứng yên." : "Chạm vào một quỹ đạo."}</h3>
+        <h3>{compact ? "The universe is always moving." : "Explore an orbit."}</h3>
         <p>
-          Đổi độ lệch tâm. Xem hành tinh chạy nhanh hơn khi đến gần Mặt Trời.
+          Change the eccentricity and watch the planet move faster as it approaches the Sun.
         </p>
-        {onOpen && (
-          <button className="lab-open" onClick={onOpen}>
-            Thử học bằng mô phỏng{" "}
+        {onOpen &&
+        <button className="lab-open" onClick={onOpen}>
+            Open the orbit lesson{" "}
             <svg
-              aria-hidden="true"
-              width="14"
-              height="14"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.7"
-            >
+            aria-hidden="true"
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.7">
+
               <path d="M6 18 18 6M6 6h12v12" />
             </svg>
           </button>
-        )}
+        }
       </div>
       <div className="lab-stage">
         <canvas
           ref={canvasRef}
           role="img"
-          aria-label={`Quỹ đạo elip với độ lệch tâm ${eccentricity.toFixed(2)}. Mặt Trời nằm ở một tiêu điểm.`}
-        />
-        <span className="lab-scale">MÔ HÌNH MINH HỌA · KHÔNG THEO TỈ LỆ</span>
+          aria-label={`Elliptical orbit with eccentricity ${eccentricity.toFixed(2)}. The Sun is at one focus.`} />
+
+        <span className="lab-scale">ILLUSTRATIVE MODEL · NOT TO SCALE</span>
       </div>
       <div className="lab-controls">
         <label>
-          Độ lệch tâm <output>{eccentricity.toFixed(2)}</output>
+          Eccentricity <output>{eccentricity.toFixed(2)}</output>
           <input
-            aria-label="Độ lệch tâm"
+            aria-label="Eccentricity"
             type="range"
             min="0"
             max="0.65"
             step="0.01"
             value={eccentricity}
-            onChange={(event) => setEccentricity(Number(event.target.value))}
-          />
+            onChange={(event) => setEccentricity(Number(event.target.value))} />
+
         </label>
-        {!compact && (
-          <label>
-            Vị trí theo thời gian{" "}
+        {!compact &&
+        <label>
+            Orbital position{" "}
             <input
-              type="range"
-              min="0"
-              max="6.28"
-              step="0.01"
-              value={phase}
-              aria-label="Vị trí hành tinh"
-              onChange={(event) => {
-                const value = Number(event.target.value);
-                setPhase(value);
-                phaseRef.current = value;
-                setPlaying(false);
-              }}
-            />
+            type="range"
+            min="0"
+            max="6.28"
+            step="0.01"
+            value={phase}
+            aria-label="Planetary position"
+            onChange={(event) => {
+              const value = Number(event.target.value);
+              setPhase(value);
+              phaseRef.current = value;
+              setPlaying(false);
+            }} />
+
           </label>
-        )}
+        }
         <button
           onClick={() => {
             if (playing) setPhase(phaseRef.current);
             setPlaying((value) => !value);
           }}
-          aria-pressed={playing}
-        >
-          {playing ? "Tạm dừng" : "Chạy quỹ đạo"}{" "}
+          aria-pressed={playing}>
+
+          {playing ? "Pause" : "Run orbit"}{" "}
           <svg
             aria-hidden="true"
             width="14"
@@ -178,16 +178,16 @@ export default function OrbitLab({ compact = false, onOpen }) {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="1.7"
-          >
-            {playing ? (
-              <path d="M8 5v14M16 5v14" />
-            ) : (
-              <path d="m8 5 11 7-11 7z" />
-            )}
+            strokeWidth="1.7">
+
+            {playing ?
+            <path d="M8 5v14M16 5v14" /> :
+
+            <path d="m8 5 11 7-11 7z" />
+            }
           </svg>
         </button>
       </div>
-    </section>
-  );
+    </section>);
+
 }

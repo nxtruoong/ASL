@@ -3,9 +3,9 @@
 - **Job and audience:** Self-guided Vietnamese-speaking learners browse and study the 14 astronomy lessons in the supplied curriculum. Surface mode: Operate with an exploratory learning path.
 - **Outcome and proof:** Learner can find a topic, preview its subtopics, and mark a lesson complete. The curriculum outline itself is the product's specific content.
 - **Direction:** A visual astronomy field guide: deep ink navigation frames a warm paper reading surface; NASA photographs make the topics concrete. The opening view combines a current learning prompt with an image-led lesson path.
-- **Scope:** Responsive single-page prototype. Include all 14 lessons, search, topic filters, a keyboard-accessible reader with an introductory explanation per subtopic and a quick quiz per lesson, a Kepler orbit model, and locally saved progress. No sign-in or TideCloak integration.
+- **Scope:** Responsive single-page prototype. Include all 14 lessons, search, topic filters, a keyboard-accessible reader with an introductory explanation per subtopic and a quick quiz per lesson, a Kepler orbit model, locally saved progress, and optional TideCloak sign-in when an adapter is configured.
 - **States and interactions:** Initial progress, in-progress lessons, completed lessons, no search results, selected lesson detail, and responsive navigation. Search and filters combine; completion can be toggled.
-- **Constraints:** Existing React/Vite stack retained. Vietnamese UI. NASA image provenance recorded in `public/images/SOURCES.md`. Future auth remains outside current behavior.
+- **Constraints:** Existing React/Vite stack retained. Vietnamese UI. NASA image provenance recorded in `public/images/SOURCES.md`. TideCloak configuration stays outside source control; account progress remains browser-local until a backend exists.
 
 ## Direction contract
 
