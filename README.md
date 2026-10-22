@@ -1,4 +1,4 @@
-# Quỹ đạo
+# Trajectory
 
 A Vietnamese astronomy learning prototype for self-guided students. The 14-lesson curriculum follows the supplied course outline, from observing the sky to the Big Bang.
 
