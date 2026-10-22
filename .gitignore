@@ -1,0 +1,6 @@
+node_modules/
+dist/
+public/tidecloak.json
+.impeccable/review/
+.impeccable/*.cjs
+.impeccable/prepare-fonts.mjs
